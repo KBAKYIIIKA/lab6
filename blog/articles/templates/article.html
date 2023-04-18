@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=" {% static 'articles/css/article.css' %}">
+    <meta charset="UTF-8">
+    <title>Article {{post.id}}</title>
+</head>
+<body>
+    <img width="318 px" src="{% static 'articles/img/cyper_pyrate.png' %}" alt="Кибер-Пират">
+    <a class="main_menu" href="/">Все статьи</a>
+    <div>
+        <h1>{{post.title}}</h1>
+        <div id="nd">
+            <h2>{{post.author}}</h2>
+            <h3>{{post.created_date}}</h3>
+        </div>
+        <p>{{post.text}}</p>
+    </div>
+</body>
+</html>

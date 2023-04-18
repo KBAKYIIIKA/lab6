@@ -1,0 +1,77 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* Основная страница*/
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+/*Отдельные страницы*/
+
+.main_menu{
+    float: right;
+    margin-top: 50px;
+}
+
+.header1 {
+    display: block;
+    width: 318px;
+    float: left;
+    margin-left: 50px;
+    clear: right;
+}
+
+.content{
+    display: bottom;
+}
+
+.hat {
+    display: flex;
+}
+
+#nd {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bb {
+    background: url('../img/bg.jpg');
+}
+
+#qq {
+    color:gray;
+    font-size: 40px;
+    border: solid 4px lightblue;
+    margin-bottom: 50px;
+}
